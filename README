@@ -1,4 +1,6 @@
 
+JS Ports of the Python examples found at http://iamtrask.github.io/2015/07/12/basic-python-network/
+
 node ann.js
 or
 <script src="ann.js"></script>
