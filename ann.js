@@ -123,6 +123,8 @@ var is_arr = function(x) {
         var l1_err = sub(y, l1);
         var l1_delta = mul(l1_err, nonlin(l1, true));
         syn0 = add(syn0, dot(T(l0), l1_delta));
+
+        i % 1000 == 0 && console.log(l1);
     }
 
     console.log(l1);
